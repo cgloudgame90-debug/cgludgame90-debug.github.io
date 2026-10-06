@@ -1,0 +1,168 @@
+body{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.contenedor{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.boton1{
+  height: 38px;
+  background-color: #371c81;
+  border: 0;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*encabezado*/
+header{
+  background-color: #371c81;
+  color: #FFFFFF;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid #000000;
+}
+
+header a{
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  display: inline;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+header #marca{
+  float: left;
+}
+header #marca h1{
+  margin: 0px;
+}
+ header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .resaltado{
+  color: #000000;
+  font-weight: bold;
+}
+header .actual a{
+  color: #000000;
+  font-weight: bolder;
+}
+header a:hover{
+  color: #cccccc;
+
+  font-weight: bolder;
+
+}
+
+/*cabezera*/
+
+#cabecera{
+
+  min-height: 400px;
+
+  background: url(../Imagenes/cabecera.jpg) no-repeat;
+
+  background-position: 0 -400px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+#cabecera h1{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#cabecera p{
+    font-size: 25px;
+}
+/*formulario*/
+#boletin{
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: #24282b;
+
+}
+#boletin h1{
+    float: left;
+}
+#boletin form{
+    float: right;
+    padding-top: 15px;
+}
+#boletin input[type="email"]{
+    height: 25px;
+    width: 250px;
+    padding: 5px;
+}
+
+
+/*Cajas que almacenan los logos*/
+
+#cajas{
+    margin-top: 20px;
+}
+#cajas .cajas{
+    float: left;
+    text-align: center;
+    width: 30%;
+
+
+}
+
+#cajas .cajas img{
+    width:100px;
+}
+
+
+
+/* Lateral */
+aside#Lateral{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.oscuro{
+    padding: 15px;
+    background-color: #5b5964;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Main-col */
+article#main-col{
+  float: left;
+  width: 65%;
+
+}
+
+
+
+/*footer o pie de pagina*/
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  background-color: #371c81;
+  text-align:center;
+}
